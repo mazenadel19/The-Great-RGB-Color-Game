@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <h1>
+        The Great
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Color Game
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button  class="mode">Easy</button>
+        <button  class="mode selected">Hard</button>
+    </div>
+
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+        <script type="text/javascript">
+            var alerted = localStorage.getItem('alerted') || '';
+            if (alerted != 'yes') {
+                alert(
+                    "Welcome to The Great RGB Color\n RGB is a coloring system, first digit place refers to amount of red,second is green third is blue\nHow to play?\nred+ green+ blue → white\nno red+no green+no blue →black\n\n red+no green+no blue → red \n no red+ green+no blue → green\nno red+no green+ blue →blue\n\nsimple enough? Ok let’s play a little more\nred+ green+ no blue → yellow\nred+ no green+ blue →pink\nno red+ green+ blue → light blue\nThat’s all for now, knock yourself off"
+                );
+                localStorage.setItem('alerted', 'yes');
+            }
+        </script>
+    <script type="text/javascript" src="js/apps.js"></script>
+</body>
+
+</html>
