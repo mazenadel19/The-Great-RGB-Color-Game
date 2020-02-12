@@ -1,4 +1,4 @@
-# Welcome to The Great RGB Color
+# Welcome to The Great RGB Color Game
 
 RGB is a coloring model, first digit place refers to amount of red,second is green third is blue
 
