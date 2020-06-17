@@ -18,3 +18,5 @@ simple enough? Ok let’s play a little more
   - no red+ green+ blue → light blue
 
 That’s all for now, knock yourself off
+
+watch the project live here: https://rawcdn.githack.com/mazenadel19/The-Great-RGB-Color-Game/2fdf759fc536d2e097daeae9631117644d176447/index.html
